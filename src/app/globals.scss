@@ -1,4 +1,20 @@
 :root {
+  --primary-color: #00acc1;
+  --background-color: #fff;
+}
+
+@media (max-width: 960px) {
+  :root {
+    --header-height: 4.4rem;
+  }
+}
+
+html,
+body {
+  margin: 0;
+}
+
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -8,6 +24,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  --header-height: 4.4rem;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -104,4 +122,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
